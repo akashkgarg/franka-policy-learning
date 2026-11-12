@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Franka LLM Lab</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="plotly.min.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">Franka LLM Lab</div>
+    <nav>
+      <button class="tab active" data-view="episodes">Episodes</button>
+      <button class="tab" data-view="overview">Overview</button>
+      <button class="tab" data-view="run">Run</button>
+    </nav>
+    <div class="topbar-right" id="topbar-status"></div>
+  </header>
+
+  <main>
+    <!-- Episode browser -->
+    <section id="view-episodes" class="view active">
+      <aside class="sidebar">
+        <div class="filters">
+          <select id="f-source"></select>
+          <select id="f-task"></select>
+          <select id="f-outcome">
+            <option value="">all outcomes</option>
+            <option value="success">success</option>
+            <option value="failure">failure</option>
+          </select>
+          <select id="f-sort">
+            <option value="recent">newest first</option>
+            <option value="steps">most LLM steps</option>
+            <option value="error">largest stack error</option>
+            <option value="latency">slowest LLM</option>
+          </select>
+          <input id="f-search" placeholder="search name / seed" />
+        </div>
+        <div class="list-count" id="list-count"></div>
+        <div class="episode-list" id="episode-list"></div>
+      </aside>
+      <div class="episode-main" id="episode-main">
+        <div class="empty">Select an episode on the left.</div>
+      </div>
+    </section>
+
+    <!-- Overview -->
+    <section id="view-overview" class="view">
+      <div class="overview" id="overview"></div>
+    </section>
+
+    <!-- Run -->
+    <section id="view-run" class="view">
+      <div class="run-layout">
+        <div class="run-form card">
+          <h3>Run an episode</h3>
+          <label>Controller
+            <select id="r-controller"></select>
+          </label>
+          <div class="hint" id="r-controller-hint"></div>
+          <div class="row">
+            <label>Put the
+              <select id="r-top"><option>red</option><option>green</option><option>blue</option></select>
+            </label>
+            <label>block on the
+              <select id="r-bottom"><option>green</option><option>red</option><option>blue</option></select>
+            </label>
+          </div>
+          <div class="row">
+            <label>Layout seed
+              <input id="r-seed" placeholder="random" />
+            </label>
+            <button id="r-random" class="secondary" title="Pick a random layout">Random</button>
+          </div>
+          <label>Table
+            <select id="r-table">
+              <option value="grid">grid (original datasets)</option>
+              <option value="wood">wood texture</option>
+              <option value="plain">solid color</option>
+            </select>
+          </label>
+          <div class="hint">The seed fixes the block layout. Seeds from the dataset (e.g. 100002) reproduce that
+            episode's layout, so you can compare the LLM and a policy on the same scene.</div>
+          <div id="r-llm-options">
+            <label>Instruction override (optional, LLM only)
+              <textarea id="r-instruction" rows="2" placeholder="e.g. Stack the red block on the green block, then push the blue block next to them."></textarea>
+            </label>
+            <div class="row">
+              <label>Model <input id="r-model" value="gpt-6-astra" /></label>
+              <label>Max steps <input id="r-max-steps" value="24" /></label>
+            </div>
+          </div>
+          <div id="r-policy-options" class="hidden">
+            <label>Episode length (sim seconds) <input id="r-policy-seconds" value="30" /></label>
+          </div>
+          <button id="r-submit" class="primary">Run</button>
+          <div class="error" id="r-error"></div>
+
+          <h3>Sim worker</h3>
+          <div id="r-worker"></div>
+          <h3>LLM Gateway token</h3>
+          <div id="r-token"></div>
+          <div class="row">
+            <input id="r-token-input" placeholder="paste a new LCA token" />
+            <button id="r-token-save" class="secondary">Save</button>
+          </div>
+          <div class="hint">Get one with <code>sapi lca-token -a rbx.prod.llm-gateway</code>. It is stored in
+            ~/.config/llm-gateway/lca_token and read on every LLM request.</div>
+        </div>
+        <div class="run-live">
+          <div class="card">
+            <div class="live-header">
+              <h3 id="live-title">Live view</h3>
+              <span id="live-state" class="badge"></span>
+            </div>
+            <div class="live-images">
+              <img id="live-scene" alt="" />
+              <img id="live-wrist" alt="" />
+            </div>
+            <div class="live-telemetry" id="live-telemetry"></div>
+          </div>
+          <div class="card">
+            <h3>Events</h3>
+            <div class="events" id="live-events"></div>
+          </div>
+          <div class="card">
+            <h3>Recent runs</h3>
+            <div id="job-list"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+[
+ {
+  "policy": "wood_vision",
+  "trained_on": "vision-only LLM data (wood)",
+  "inputs": "images + joints + task",
+  "wood": "9/70",
+  "grid": "0/70"
+ },
+ {
+  "policy": "goal_state",
+  "trained_on": "full-state LLM data (grid)",
+  "inputs": "images + joints + task + block positions",
+  "wood": "0/70",
+  "grid": "54/70"
+ },
+ {
+  "policy": "goal_vision",
+  "trained_on": "full-state LLM data (grid)",
+  "inputs": "images + joints + task",
+  "wood": "0/70",
+  "grid": "9/70"
+ }
+]

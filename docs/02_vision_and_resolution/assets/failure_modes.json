@@ -1,0 +1,65 @@
+{
+ "eval_wood_vision": {
+  "success": 9,
+  "near miss": 9,
+  "stacked on the wrong block": 0,
+  "dropped elsewhere": 8,
+  "fumbled the grasp": 16,
+  "never picked": 21,
+  "picked the wrong block": 7
+ },
+ "eval_wood_crop264": {
+  "success": 11,
+  "near miss": 7,
+  "stacked on the wrong block": 1,
+  "dropped elsewhere": 5,
+  "fumbled the grasp": 7,
+  "never picked": 30,
+  "picked the wrong block": 9
+ },
+ "eval_wood_res256": {
+  "success": 25,
+  "near miss": 10,
+  "stacked on the wrong block": 5,
+  "dropped elsewhere": 10,
+  "fumbled the grasp": 8,
+  "never picked": 10,
+  "picked the wrong block": 2
+ },
+ "eval_wood_res320": {
+  "success": 23,
+  "near miss": 7,
+  "stacked on the wrong block": 20,
+  "dropped elsewhere": 6,
+  "fumbled the grasp": 6,
+  "never picked": 8,
+  "picked the wrong block": 0
+ },
+ "eval_wood_res640": {
+  "success": 10,
+  "near miss": 2,
+  "stacked on the wrong block": 8,
+  "dropped elsewhere": 5,
+  "fumbled the grasp": 3,
+  "never picked": 1,
+  "picked the wrong block": 41
+ },
+ "eval_wood_res256_40k": {
+  "success": 21,
+  "near miss": 9,
+  "stacked on the wrong block": 15,
+  "dropped elsewhere": 13,
+  "fumbled the grasp": 3,
+  "never picked": 9,
+  "picked the wrong block": 0
+ },
+ "eval_wood_res256_80k": {
+  "success": 29,
+  "near miss": 8,
+  "stacked on the wrong block": 16,
+  "dropped elsewhere": 7,
+  "fumbled the grasp": 4,
+  "never picked": 6,
+  "picked the wrong block": 0
+ }
+}

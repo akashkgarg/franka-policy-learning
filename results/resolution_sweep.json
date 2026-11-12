@@ -1,0 +1,42 @@
+[
+ {
+  "run": "wood_vision",
+  "scene": "128x128 (squashed)",
+  "wrist": "128x128",
+  "wood_success": "9/70",
+  "best_val_l1": 0.06355,
+  "train_seconds": 721
+ },
+ {
+  "run": "wood_res256",
+  "scene": "256x192",
+  "wrist": "256x192",
+  "wood_success": "25/70",
+  "best_val_l1": 0.06202,
+  "train_seconds": 2413
+ },
+ {
+  "run": "wood_crop264",
+  "scene": "table crop -> 264x176",
+  "wrist": "256x192",
+  "wood_success": "11/70",
+  "best_val_l1": 0.06498,
+  "train_seconds": 2409
+ },
+ {
+  "run": "wood_res320",
+  "scene": "320x240",
+  "wrist": "320x240",
+  "wood_success": "23/70",
+  "best_val_l1": 0.06672,
+  "train_seconds": 2999
+ },
+ {
+  "run": "wood_res640",
+  "scene": "640x480 (full)",
+  "wrist": "640x480",
+  "wood_success": "10/70",
+  "best_val_l1": 0.08201,
+  "train_seconds": 8769
+ }
+]

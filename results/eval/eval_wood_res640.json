@@ -1,0 +1,776 @@
+{
+ "episodes": 70,
+ "successes": 10,
+ "results": [
+  {
+   "episode": "policy_seed901000",
+   "task": {
+    "top": "red",
+    "bottom": "green",
+    "task_index": 0
+   },
+   "success": false,
+   "xy_error_m": 0.1775,
+   "height_diff_m": 0.05
+  },
+  {
+   "episode": "policy_seed901001",
+   "task": {
+    "top": "blue",
+    "bottom": "red",
+    "task_index": 4
+   },
+   "success": false,
+   "xy_error_m": 0.1856,
+   "height_diff_m": 0.0
+  },
+  {
+   "episode": "policy_seed901002",
+   "task": {
+    "top": "red",
+    "bottom": "blue",
+    "task_index": 1
+   },
+   "success": false,
+   "xy_error_m": 0.2087,
+   "height_diff_m": -0.0001
+  },
+  {
+   "episode": "policy_seed901003",
+   "task": {
+    "top": "red",
+    "bottom": "blue",
+    "task_index": 1
+   },
+   "success": false,
+   "xy_error_m": 0.4602,
+   "height_diff_m": -0.0466
+  },
+  {
+   "episode": "policy_seed901004",
+   "task": {
+    "top": "red",
+    "bottom": "blue",
+    "task_index": 1
+   },
+   "success": false,
+   "xy_error_m": 0.0821,
+   "height_diff_m": 0.0001
+  },
+  {
+   "episode": "policy_seed901005",
+   "task": {
+    "top": "blue",
+    "bottom": "red",
+    "task_index": 4
+   },
+   "success": false,
+   "xy_error_m": 0.0049,
+   "height_diff_m": -0.05
+  },
+  {
+   "episode": "policy_seed901006",
+   "task": {
+    "top": "green",
+    "bottom": "blue",
+    "task_index": 3
+   },
+   "success": true,
+   "xy_error_m": 0.0246,
+   "height_diff_m": 0.0445
+  },
+  {
+   "episode": "policy_seed901007",
+   "task": {
+    "top": "red",
+    "bottom": "blue",
+    "task_index": 1
+   },
+   "success": false,
+   "xy_error_m": 0.1017,
+   "height_diff_m": -0.0
+  },
+  {
+   "episode": "policy_seed901008",
+   "task": {
+    "top": "blue",
+    "bottom": "red",
+    "task_index": 4
+   },
+   "success": false,
+   "xy_error_m": 0.2793,
+   "height_diff_m": -0.05
+  },
+  {
+   "episode": "policy_seed901009",
+   "task": {
+    "top": "blue",
+    "bottom": "green",
+    "task_index": 5
+   },
+   "success": false,
+   "xy_error_m": 0.2803,
+   "height_diff_m": 0.05
+  },
+  {
+   "episode": "policy_seed902000",
+   "task": {
+    "top": "red",
+    "bottom": "green",
+    "task_index": 0
+   },
+   "success": false,
+   "xy_error_m": 0.0801,
+   "height_diff_m": -0.0
+  },
+  {
+   "episode": "policy_seed902001",
+   "task": {
+    "top": "blue",
+    "bottom": "green",
+    "task_index": 5
+   },
+   "success": false,
+   "xy_error_m": 0.2939,
+   "height_diff_m": -0.05
+  },
+  {
+   "episode": "policy_seed902002",
+   "task": {
+    "top": "blue",
+    "bottom": "red",
+    "task_index": 4
+   },
+   "success": false,
+   "xy_error_m": 0.3756,
+   "height_diff_m": 0.0
+  },
+  {
+   "episode": "policy_seed902003",
+   "task": {
+    "top": "blue",
+    "bottom": "red",
+    "task_index": 4
+   },
+   "success": false,
+   "xy_error_m": 0.2934,
+   "height_diff_m": 0.05
+  },
+  {
+   "episode": "policy_seed902004",
+   "task": {
+    "top": "red",
+    "bottom": "green",
+    "task_index": 0
+   },
+   "success": true,
+   "xy_error_m": 0.008,
+   "height_diff_m": 0.05
+  },
+  {
+   "episode": "policy_seed902005",
+   "task": {
+    "top": "blue",
+    "bottom": "red",
+    "task_index": 4
+   },
+   "success": false,
+   "xy_error_m": 0.2152,
+   "height_diff_m": -0.0
+  },
+  {
+   "episode": "policy_seed902006",
+   "task": {
+    "top": "green",
+    "bottom": "blue",
+    "task_index": 3
+   },
+   "success": false,
+   "xy_error_m": 0.1714,
+   "height_diff_m": 0.0
+  },
+  {
+   "episode": "policy_seed902007",
+   "task": {
+    "top": "green",
+    "bottom": "red",
+    "task_index": 2
+   },
+   "success": false,
+   "xy_error_m": 0.2651,
+   "height_diff_m": 0.0
+  },
+  {
+   "episode": "policy_seed902008",
+   "task": {
+    "top": "red",
+    "bottom": "green",
+    "task_index": 0
+   },
+   "success": false,
+   "xy_error_m": 0.3585,
+   "height_diff_m": -0.0001
+  },
+  {
+   "episode": "policy_seed902009",
+   "task": {
+    "top": "red",
+    "bottom": "blue",
+    "task_index": 1
+   },
+   "success": false,
+   "xy_error_m": 0.4327,
+   "height_diff_m": 0.1563
+  },
+  {
+   "episode": "policy_seed903000",
+   "task": {
+    "top": "red",
+    "bottom": "green",
+    "task_index": 0
+   },
+   "success": false,
+   "xy_error_m": 0.0031,
+   "height_diff_m": -0.05
+  },
+  {
+   "episode": "policy_seed903001",
+   "task": {
+    "top": "green",
+    "bottom": "blue",
+    "task_index": 3
+   },
+   "success": false,
+   "xy_error_m": 0.0108,
+   "height_diff_m": -0.0496
+  },
+  {
+   "episode": "policy_seed903002",
+   "task": {
+    "top": "blue",
+    "bottom": "red",
+    "task_index": 4
+   },
+   "success": false,
+   "xy_error_m": 0.0607,
+   "height_diff_m": 0.0
+  },
+  {
+   "episode": "policy_seed903003",
+   "task": {
+    "top": "red",
+    "bottom": "green",
+    "task_index": 0
+   },
+   "success": false,
+   "xy_error_m": 0.4222,
+   "height_diff_m": 0.0
+  },
+  {
+   "episode": "policy_seed903004",
+   "task": {
+    "top": "blue",
+    "bottom": "red",
+    "task_index": 4
+   },
+   "success": false,
+   "xy_error_m": 0.5061,
+   "height_diff_m": -0.0
+  },
+  {
+   "episode": "policy_seed903005",
+   "task": {
+    "top": "red",
+    "bottom": "blue",
+    "task_index": 1
+   },
+   "success": false,
+   "xy_error_m": 0.4201,
+   "height_diff_m": 0.0
+  },
+  {
+   "episode": "policy_seed903006",
+   "task": {
+    "top": "red",
+    "bottom": "green",
+    "task_index": 0
+   },
+   "success": false,
+   "xy_error_m": 0.2632,
+   "height_diff_m": 0.1532
+  },
+  {
+   "episode": "policy_seed903007",
+   "task": {
+    "top": "green",
+    "bottom": "blue",
+    "task_index": 3
+   },
+   "success": false,
+   "xy_error_m": 0.3212,
+   "height_diff_m": -0.0
+  },
+  {
+   "episode": "policy_seed903008",
+   "task": {
+    "top": "red",
+    "bottom": "green",
+    "task_index": 0
+   },
+   "success": false,
+   "xy_error_m": 0.4702,
+   "height_diff_m": -0.0
+  },
+  {
+   "episode": "policy_seed903009",
+   "task": {
+    "top": "red",
+    "bottom": "blue",
+    "task_index": 1
+   },
+   "success": true,
+   "xy_error_m": 0.005,
+   "height_diff_m": 0.05
+  },
+  {
+   "episode": "policy_seed904000",
+   "task": {
+    "top": "blue",
+    "bottom": "red",
+    "task_index": 4
+   },
+   "success": false,
+   "xy_error_m": 0.1967,
+   "height_diff_m": -0.05
+  },
+  {
+   "episode": "policy_seed904001",
+   "task": {
+    "top": "green",
+    "bottom": "red",
+    "task_index": 2
+   },
+   "success": true,
+   "xy_error_m": 0.0163,
+   "height_diff_m": 0.05
+  },
+  {
+   "episode": "policy_seed904002",
+   "task": {
+    "top": "green",
+    "bottom": "blue",
+    "task_index": 3
+   },
+   "success": false,
+   "xy_error_m": 0.0037,
+   "height_diff_m": -0.0472
+  },
+  {
+   "episode": "policy_seed904003",
+   "task": {
+    "top": "green",
+    "bottom": "red",
+    "task_index": 2
+   },
+   "success": false,
+   "xy_error_m": 0.4152,
+   "height_diff_m": -0.05
+  },
+  {
+   "episode": "policy_seed904004",
+   "task": {
+    "top": "red",
+    "bottom": "blue",
+    "task_index": 1
+   },
+   "success": false,
+   "xy_error_m": 0.4358,
+   "height_diff_m": -0.0454
+  },
+  {
+   "episode": "policy_seed904005",
+   "task": {
+    "top": "red",
+    "bottom": "green",
+    "task_index": 0
+   },
+   "success": false,
+   "xy_error_m": 0.612,
+   "height_diff_m": 0.05
+  },
+  {
+   "episode": "policy_seed904006",
+   "task": {
+    "top": "green",
+    "bottom": "red",
+    "task_index": 2
+   },
+   "success": true,
+   "xy_error_m": 0.0042,
+   "height_diff_m": 0.05
+  },
+  {
+   "episode": "policy_seed904007",
+   "task": {
+    "top": "red",
+    "bottom": "green",
+    "task_index": 0
+   },
+   "success": false,
+   "xy_error_m": 0.1715,
+   "height_diff_m": 0.05
+  },
+  {
+   "episode": "policy_seed904008",
+   "task": {
+    "top": "green",
+    "bottom": "blue",
+    "task_index": 3
+   },
+   "success": false,
+   "xy_error_m": 0.3068,
+   "height_diff_m": 0.0
+  },
+  {
+   "episode": "policy_seed904009",
+   "task": {
+    "top": "red",
+    "bottom": "blue",
+    "task_index": 1
+   },
+   "success": false,
+   "xy_error_m": 0.0042,
+   "height_diff_m": -0.05
+  },
+  {
+   "episode": "policy_seed905000",
+   "task": {
+    "top": "green",
+    "bottom": "blue",
+    "task_index": 3
+   },
+   "success": false,
+   "xy_error_m": 0.2103,
+   "height_diff_m": 0.05
+  },
+  {
+   "episode": "policy_seed905001",
+   "task": {
+    "top": "red",
+    "bottom": "blue",
+    "task_index": 1
+   },
+   "success": false,
+   "xy_error_m": 0.262,
+   "height_diff_m": 0.0
+  },
+  {
+   "episode": "policy_seed905002",
+   "task": {
+    "top": "red",
+    "bottom": "blue",
+    "task_index": 1
+   },
+   "success": false,
+   "xy_error_m": 0.3748,
+   "height_diff_m": -0.1589
+  },
+  {
+   "episode": "policy_seed905003",
+   "task": {
+    "top": "green",
+    "bottom": "red",
+    "task_index": 2
+   },
+   "success": false,
+   "xy_error_m": 0.1894,
+   "height_diff_m": -0.05
+  },
+  {
+   "episode": "policy_seed905004",
+   "task": {
+    "top": "red",
+    "bottom": "green",
+    "task_index": 0
+   },
+   "success": false,
+   "xy_error_m": 0.3338,
+   "height_diff_m": 0.0
+  },
+  {
+   "episode": "policy_seed905005",
+   "task": {
+    "top": "green",
+    "bottom": "red",
+    "task_index": 2
+   },
+   "success": false,
+   "xy_error_m": 0.2101,
+   "height_diff_m": 0.0
+  },
+  {
+   "episode": "policy_seed905006",
+   "task": {
+    "top": "blue",
+    "bottom": "red",
+    "task_index": 4
+   },
+   "success": false,
+   "xy_error_m": 0.3789,
+   "height_diff_m": 0.0001
+  },
+  {
+   "episode": "policy_seed905007",
+   "task": {
+    "top": "blue",
+    "bottom": "red",
+    "task_index": 4
+   },
+   "success": false,
+   "xy_error_m": 0.1207,
+   "height_diff_m": -0.0
+  },
+  {
+   "episode": "policy_seed905008",
+   "task": {
+    "top": "green",
+    "bottom": "blue",
+    "task_index": 3
+   },
+   "success": false,
+   "xy_error_m": 0.056,
+   "height_diff_m": -0.0001
+  },
+  {
+   "episode": "policy_seed905009",
+   "task": {
+    "top": "red",
+    "bottom": "blue",
+    "task_index": 1
+   },
+   "success": false,
+   "xy_error_m": 0.204,
+   "height_diff_m": 0.0
+  },
+  {
+   "episode": "policy_seed906000",
+   "task": {
+    "top": "blue",
+    "bottom": "green",
+    "task_index": 5
+   },
+   "success": false,
+   "xy_error_m": 0.1782,
+   "height_diff_m": -0.0
+  },
+  {
+   "episode": "policy_seed906001",
+   "task": {
+    "top": "red",
+    "bottom": "green",
+    "task_index": 0
+   },
+   "success": false,
+   "xy_error_m": 0.2003,
+   "height_diff_m": -0.05
+  },
+  {
+   "episode": "policy_seed906002",
+   "task": {
+    "top": "green",
+    "bottom": "blue",
+    "task_index": 3
+   },
+   "success": false,
+   "xy_error_m": 0.1711,
+   "height_diff_m": -0.0041
+  },
+  {
+   "episode": "policy_seed906003",
+   "task": {
+    "top": "red",
+    "bottom": "blue",
+    "task_index": 1
+   },
+   "success": true,
+   "xy_error_m": 0.02,
+   "height_diff_m": 0.0494
+  },
+  {
+   "episode": "policy_seed906004",
+   "task": {
+    "top": "blue",
+    "bottom": "red",
+    "task_index": 4
+   },
+   "success": false,
+   "xy_error_m": 0.1213,
+   "height_diff_m": 0.0
+  },
+  {
+   "episode": "policy_seed906005",
+   "task": {
+    "top": "red",
+    "bottom": "blue",
+    "task_index": 1
+   },
+   "success": false,
+   "xy_error_m": 0.2242,
+   "height_diff_m": -0.1816
+  },
+  {
+   "episode": "policy_seed906006",
+   "task": {
+    "top": "blue",
+    "bottom": "red",
+    "task_index": 4
+   },
+   "success": false,
+   "xy_error_m": 0.3656,
+   "height_diff_m": -0.0
+  },
+  {
+   "episode": "policy_seed906007",
+   "task": {
+    "top": "red",
+    "bottom": "blue",
+    "task_index": 1
+   },
+   "success": false,
+   "xy_error_m": 0.0739,
+   "height_diff_m": 0.0
+  },
+  {
+   "episode": "policy_seed906008",
+   "task": {
+    "top": "red",
+    "bottom": "blue",
+    "task_index": 1
+   },
+   "success": false,
+   "xy_error_m": 0.173,
+   "height_diff_m": -0.0
+  },
+  {
+   "episode": "policy_seed906009",
+   "task": {
+    "top": "red",
+    "bottom": "blue",
+    "task_index": 1
+   },
+   "success": true,
+   "xy_error_m": 0.0103,
+   "height_diff_m": 0.05
+  },
+  {
+   "episode": "policy_seed907000",
+   "task": {
+    "top": "red",
+    "bottom": "blue",
+    "task_index": 1
+   },
+   "success": true,
+   "xy_error_m": 0.0285,
+   "height_diff_m": 0.042
+  },
+  {
+   "episode": "policy_seed907001",
+   "task": {
+    "top": "red",
+    "bottom": "green",
+    "task_index": 0
+   },
+   "success": false,
+   "xy_error_m": 0.0067,
+   "height_diff_m": -0.05
+  },
+  {
+   "episode": "policy_seed907002",
+   "task": {
+    "top": "red",
+    "bottom": "green",
+    "task_index": 0
+   },
+   "success": true,
+   "xy_error_m": 0.0094,
+   "height_diff_m": 0.05
+  },
+  {
+   "episode": "policy_seed907003",
+   "task": {
+    "top": "red",
+    "bottom": "blue",
+    "task_index": 1
+   },
+   "success": false,
+   "xy_error_m": 0.1091,
+   "height_diff_m": -0.0003
+  },
+  {
+   "episode": "policy_seed907004",
+   "task": {
+    "top": "blue",
+    "bottom": "red",
+    "task_index": 4
+   },
+   "success": true,
+   "xy_error_m": 0.0183,
+   "height_diff_m": 0.05
+  },
+  {
+   "episode": "policy_seed907005",
+   "task": {
+    "top": "red",
+    "bottom": "blue",
+    "task_index": 1
+   },
+   "success": false,
+   "xy_error_m": 0.0914,
+   "height_diff_m": -0.0
+  },
+  {
+   "episode": "policy_seed907006",
+   "task": {
+    "top": "green",
+    "bottom": "red",
+    "task_index": 2
+   },
+   "success": false,
+   "xy_error_m": 0.2551,
+   "height_diff_m": -0.0
+  },
+  {
+   "episode": "policy_seed907007",
+   "task": {
+    "top": "red",
+    "bottom": "blue",
+    "task_index": 1
+   },
+   "success": false,
+   "xy_error_m": 0.0058,
+   "height_diff_m": -0.05
+  },
+  {
+   "episode": "policy_seed907008",
+   "task": {
+    "top": "green",
+    "bottom": "red",
+    "task_index": 2
+   },
+   "success": false,
+   "xy_error_m": 0.013,
+   "height_diff_m": 0.1654
+  },
+  {
+   "episode": "policy_seed907009",
+   "task": {
+    "top": "blue",
+    "bottom": "red",
+    "task_index": 4
+   },
+   "success": false,
+   "xy_error_m": 0.1567,
+   "height_diff_m": 0.0
+  }
+ ]
+}

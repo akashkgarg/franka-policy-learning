@@ -1,0 +1,226 @@
+{
+ "episodes": 20,
+ "successes": 4,
+ "results": [
+  {
+   "episode": "policy_seed904000",
+   "task": {
+    "top": "blue",
+    "bottom": "red",
+    "task_index": 4
+   },
+   "success": true,
+   "xy_error_m": 0.0046,
+   "height_diff_m": 0.05
+  },
+  {
+   "episode": "policy_seed904001",
+   "task": {
+    "top": "green",
+    "bottom": "red",
+    "task_index": 2
+   },
+   "success": false,
+   "xy_error_m": 0.1935,
+   "height_diff_m": 0.0
+  },
+  {
+   "episode": "policy_seed904002",
+   "task": {
+    "top": "green",
+    "bottom": "blue",
+    "task_index": 3
+   },
+   "success": false,
+   "xy_error_m": 0.4558,
+   "height_diff_m": -0.0
+  },
+  {
+   "episode": "policy_seed904003",
+   "task": {
+    "top": "green",
+    "bottom": "red",
+    "task_index": 2
+   },
+   "success": false,
+   "xy_error_m": 0.2403,
+   "height_diff_m": 0.0
+  },
+  {
+   "episode": "policy_seed904004",
+   "task": {
+    "top": "red",
+    "bottom": "blue",
+    "task_index": 1
+   },
+   "success": false,
+   "xy_error_m": 0.2299,
+   "height_diff_m": -0.0
+  },
+  {
+   "episode": "policy_seed905000",
+   "task": {
+    "top": "green",
+    "bottom": "blue",
+    "task_index": 3
+   },
+   "success": false,
+   "xy_error_m": 0.3844,
+   "height_diff_m": 0.0
+  },
+  {
+   "episode": "policy_seed905001",
+   "task": {
+    "top": "red",
+    "bottom": "blue",
+    "task_index": 1
+   },
+   "success": true,
+   "xy_error_m": 0.0266,
+   "height_diff_m": 0.05
+  },
+  {
+   "episode": "policy_seed905002",
+   "task": {
+    "top": "red",
+    "bottom": "blue",
+    "task_index": 1
+   },
+   "success": false,
+   "xy_error_m": 0.0811,
+   "height_diff_m": -0.0
+  },
+  {
+   "episode": "policy_seed905003",
+   "task": {
+    "top": "green",
+    "bottom": "red",
+    "task_index": 2
+   },
+   "success": true,
+   "xy_error_m": 0.0124,
+   "height_diff_m": 0.05
+  },
+  {
+   "episode": "policy_seed905004",
+   "task": {
+    "top": "red",
+    "bottom": "green",
+    "task_index": 0
+   },
+   "success": false,
+   "xy_error_m": 0.0993,
+   "height_diff_m": 0.0
+  },
+  {
+   "episode": "policy_seed906000",
+   "task": {
+    "top": "blue",
+    "bottom": "green",
+    "task_index": 5
+   },
+   "success": false,
+   "xy_error_m": 0.1278,
+   "height_diff_m": 0.0
+  },
+  {
+   "episode": "policy_seed906001",
+   "task": {
+    "top": "red",
+    "bottom": "green",
+    "task_index": 0
+   },
+   "success": false,
+   "xy_error_m": 0.2813,
+   "height_diff_m": 0.0
+  },
+  {
+   "episode": "policy_seed906002",
+   "task": {
+    "top": "green",
+    "bottom": "blue",
+    "task_index": 3
+   },
+   "success": false,
+   "xy_error_m": 0.1243,
+   "height_diff_m": -0.0
+  },
+  {
+   "episode": "policy_seed906003",
+   "task": {
+    "top": "red",
+    "bottom": "blue",
+    "task_index": 1
+   },
+   "success": false,
+   "xy_error_m": 0.2956,
+   "height_diff_m": 0.0
+  },
+  {
+   "episode": "policy_seed906004",
+   "task": {
+    "top": "blue",
+    "bottom": "red",
+    "task_index": 4
+   },
+   "success": false,
+   "xy_error_m": 0.1473,
+   "height_diff_m": 0.0
+  },
+  {
+   "episode": "policy_seed907000",
+   "task": {
+    "top": "red",
+    "bottom": "blue",
+    "task_index": 1
+   },
+   "success": false,
+   "xy_error_m": 0.1246,
+   "height_diff_m": -0.0
+  },
+  {
+   "episode": "policy_seed907001",
+   "task": {
+    "top": "red",
+    "bottom": "green",
+    "task_index": 0
+   },
+   "success": false,
+   "xy_error_m": 0.2961,
+   "height_diff_m": 0.0
+  },
+  {
+   "episode": "policy_seed907002",
+   "task": {
+    "top": "red",
+    "bottom": "green",
+    "task_index": 0
+   },
+   "success": false,
+   "xy_error_m": 0.061,
+   "height_diff_m": -0.0
+  },
+  {
+   "episode": "policy_seed907003",
+   "task": {
+    "top": "red",
+    "bottom": "blue",
+    "task_index": 1
+   },
+   "success": true,
+   "xy_error_m": 0.0118,
+   "height_diff_m": 0.05
+  },
+  {
+   "episode": "policy_seed907004",
+   "task": {
+    "top": "blue",
+    "bottom": "red",
+    "task_index": 4
+   },
+   "success": false,
+   "xy_error_m": 0.5315,
+   "height_diff_m": 0.0
+  }
+ ]
+}
